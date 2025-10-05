@@ -60,9 +60,6 @@
             target="_blank">
             Canva Slides
           </v-btn>
-          <v-btn color="#dbeff4" size="large" class="mb-4" style="width: 300px;">
-            Preview Mobile
-          </v-btn>
           <v-btn color="white" size="large" style="width: 300px;" href="/canvas.pdf" download>
             Download Canvas
           </v-btn>
@@ -86,7 +83,7 @@
         <p class="text-body-1 mb-6">
           Discover more about CLIMORA and how we’re transforming the way people understand the weather.
         </p>
-        <v-btn color="primary" size="large" href="https://seusite.com" target="_blank" rounded elevation="4">
+        <v-btn color="primary" size="large" href="https://climora-frontend.vercel.app/" target="_blank" rounded elevation="4">
           Acess the APP oficial
         </v-btn>
       </v-container>

@@ -50,8 +50,8 @@
           Faça o download da versão web, acesse os previews ou veja o app em ação.
         </p>
         <v-row justify="center" class="gap-4">
-          <v-btn color="primary" size="large">Download Web</v-btn>
-          <v-btn color="secondary" size="large">Preview Mobile</v-btn>
+          <v-btn color="primary" size="large">Download Slides</v-btn>
+          <v-btn color="secondary" size="large">Download Canvas</v-btn>
         </v-row>
       </v-container>
 

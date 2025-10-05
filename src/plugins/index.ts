@@ -1,15 +1,7 @@
-/**
- * plugins/index.ts
- *
- * Automatically included in `./src/main.ts`
- */
-
-// Plugins
+// src/plugins/index.ts
 import vuetify from './vuetify'
-
-// Types
 import type { App } from 'vue'
 
-export function registerPlugins (app: App) {
+export function registerPlugins(app: App) {
   app.use(vuetify)
 }

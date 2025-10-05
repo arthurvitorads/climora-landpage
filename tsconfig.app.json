@@ -12,7 +12,6 @@
     "forceConsistentCasingInFileNames": true,
     "isolatedModules": true,
     "types": ["vue"],
-    "ignoreDeprecations": "6.0",
     "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"]

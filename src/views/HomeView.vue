@@ -16,8 +16,7 @@
       <v-app-bar-nav-icon class="d-flex d-md-none" @click="drawer = !drawer"></v-app-bar-nav-icon>
     </v-app-bar>
 
-    <v-navigation-drawer v-model="drawer" app temporary color="primary" location="right" dark
-    >
+    <v-navigation-drawer v-model="drawer" app temporary color="primary" location="right" dark>
       <v-list>
         <v-list-item link @click="drawer = false" href="#about">
           <v-list-item-title>About</v-list-item-title>
@@ -37,7 +36,7 @@
     <v-main>
       <div class="d-sm-flex align-center justify-center">
         <div class="pa-0">
-          <img src="../assets/logo.png" max-width="320" class="mx-auto"/>
+          <img src="../assets/logo.png" max-width="320" class="mx-auto" />
         </div>
         <div id="about" class="py-16 text-center w-sm-50">
           <h1 class="text-h3 font-weight-bold mb-4">Discover CLIMORA</h1>
@@ -67,13 +66,16 @@
           <v-btn color="white" size="large" style="width: 300px;" href="/canvas.pdf" download>
             Download Canvas
           </v-btn>
-      </v-row>
+        </v-row>
       </v-container>
 
       <v-container id="video" class="py-16 text-center">
         <h2 class="text-h4 font-weight-bold mb-4">Watch the Pitch Video</h2>
         <div class="d-flex justify-center">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/L_0PwTfDW-A" title="CLIMORA - Pitch" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/L_0PwTfDW-A" title="CLIMORA - Pitch"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
           </iframe>
         </div>
       </v-container>
@@ -99,29 +101,31 @@
 </template>
 
 <script setup lang="ts">
-  import { ref } from 'vue';
-  const drawer = ref(false)
+import { ref } from 'vue';
+const drawer = ref(false)
 
 </script>
 
 <style>
-
 .d-none {
   display: none !important;
 }
+
 .d-flex {
   display: flex !important;
 }
+
 .d-md-flex {
-  display: none !important; 
+  display: none !important;
 }
 
 @media (min-width: 960px) {
   .d-md-flex {
-    display: flex !important; 
+    display: flex !important;
   }
+
   .d-md-none {
-    display: none !important; 
+    display: none !important;
   }
 }
 </style>

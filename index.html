@@ -4,9 +4,36 @@
     <meta charset="UTF-8">
     <link rel="icon" href="/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
     <title>Home - Climora</title>
   </head>
   <body>
+    <style>
+/* Aplicar a nova fonte a todos os elementos dentro do app Vuetify */
+.v-application {
+  font-family: 'Staatliches', sans-serif !important;
+}
+
+/* Manter o seu CSS existente */
+.d-none {
+  display: none !important;
+}
+.d-flex {
+  display: flex !important;
+}
+.d-md-flex {
+  display: none !important; 
+}
+
+@media (min-width: 960px) {
+  .d-md-flex {
+    display: flex !important; 
+  }
+  .d-md-none {
+    display: none !important; 
+  }
+}
+</style>
     <div id="app"></div>
     <script type="module" src="/src/main.ts"></script>
   </body>

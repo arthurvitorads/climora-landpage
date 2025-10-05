@@ -1,8 +1,11 @@
 <template>
+  
   <v-app style="overflow-x: hidden;">
-    <v-app-bar app color="primary" dark flat>
-      <v-toolbar-title class="font-weight-bold">CLIMORA</v-toolbar-title>
-       <img src="../assets/logo.png" alt="CLIMORA Logo" style="height:32px; margin-right:12px;" />
+   <v-app-bar app color="#244c76" dark flat>
+      <v-toolbar-title class="font-weight-bold d-flex align-center" style="align-items: center; font-size: 2rem;">
+        <img src="../assets/logo.png" alt="CLIMORA Logo" style="height:100px; margin-right:12px; vertical-align: middle;" />
+         CLIMORA
+      </v-toolbar-title>  
       <v-spacer></v-spacer>
 
       <v-btn text href="#about" class="d-none d-md-flex">About</v-btn>
@@ -38,10 +41,10 @@
         </div>
         <div id="about" class="py-16 text-center w-sm-50">
           <h1 class="text-h3 font-weight-bold mb-4">Discover CLIMORA</h1>
-          <p class="text-body-1 mb-6">
-           CLIMORA combines technology, collaboration, and NASA data to deliver real-time weather forecasts, enhanced by real user reports.
-           A new way to understand and share the weather.
-          </p>
+         <p class="text-body-1 mb-6" style="text-align: justify;">
+          CLIMORA combines technology, collaboration, and NASA data to deliver real-time weather forecasts, enhanced by real user reports.
+          A new way to understand and share the weather.
+          </p>  
         </div>
       </div>
       <v-container id="downloads" class="py-16 text-center grey lighten-4">
@@ -54,14 +57,14 @@
         class="gap-4"
         style="flex-direction: column; align-items: center;"
       >
-          <v-btn color="primary" size="large" class="mb-4" style="width: 300px" href="https://www.canva.com/design/DAG02QquL4w/nZR6OfsOBz_tqnfPEM1mgw/view?utm_content=DAG02QquL4w&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h1572a00396"
+          <v-btn color="#244C76" size="large" class="mb-4" style="width: 300px" href="https://www.canva.com/design/DAG02QquL4w/nZR6OfsOBz_tqnfPEM1mgw/view?utm_content=DAG02QquL4w&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h1572a00396"
             target="_blank">
             Canva Slides
           </v-btn>
-          <v-btn color="secondary" size="large" class="mb-4" style="width: 300px;">
+          <v-btn color="#dbeff4" size="large" class="mb-4" style="width: 300px;">
             Preview Mobile
           </v-btn>
-          <v-btn color="success" size="large" style="width: 300px;" href="/canvas.pdf" download>
+          <v-btn color="white" size="large" style="width: 300px;" href="/canvas.pdf" download>
             Download Canvas
           </v-btn>
       </v-row>
